@@ -16,9 +16,11 @@
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     input = gets.strip
-  end
+    end
 end
  def list_songs 
-   Song.each_by_index do
- end
+ Song.all.sort{ |a, b| a.name <=> b.name }.each.with_index(1) do |s, i|
+      puts "#{i}. #{s.artist.name} - #{s.name} - #{s.genre.name}"
+     end
+   end
  end
