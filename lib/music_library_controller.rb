@@ -56,5 +56,6 @@
     input = gets.strip
     if list_songs.include?(input)
       song = list_songs[input]
+      puts "Playing #{song.name} by #{artist.name}"
   end
  end
