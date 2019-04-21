@@ -52,7 +52,7 @@
     end
   end
   def play_song 
-    input = list_songs_by_artist
+
     
   end
  end
