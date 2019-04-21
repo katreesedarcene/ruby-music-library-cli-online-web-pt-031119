@@ -19,5 +19,6 @@
   end
 end
  def list_songs 
+   Song.each_by_index do
  end
  end
