@@ -33,4 +33,7 @@
       puts "#{i}. #{s.name}"
      end   
   end
+  def list_songs_by_artist 
+    
+  end
  end
