@@ -4,6 +4,6 @@
   MusicImporter.new(path).import
   end
   def call 
-    puts 
+    puts "Welcome to your music library!"
   end
  end
